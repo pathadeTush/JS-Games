@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 3vh;
+}
+
+.score, .btn{
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0.25em;
+    background-color: rgb(12, 53, 58);
+    color: rgb(0, 234, 255);
+    padding: 0.5em;
+    font-size: medium;
+    font-weight: bold;
+    margin: 2vh 43vw 2vh 43vw;
+    height: 1em;
+    width: 5em;
+    display: inline-block;  
+}
+
+.btn{
+    height: 2em;
+    width: 7em;
+    align-items: center;
+    padding: 0;
+     background-color: rgb(12, 53, 58);
+    color: rgb(48, 174, 224);
+}
+
+.btn:hover{
+    cursor: pointer;
+    translate: 0 -5px;
+    transition: all 0.18s;
+    
+}
+
+
+.container{
+    display: flex;
+    height: 50vh;
+    width: 50vw;
+}
+
+
+/* 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 300px;
+}
+
+
+.btn{
+    border-radius: 4 rgb(11, 89, 95);
+    padding: 5px;
+    font-size: medium;
+    margin: 30px 300px;
+} */
