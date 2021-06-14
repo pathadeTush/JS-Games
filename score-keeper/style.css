@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(222, 224, 226);
+}
+
+h1{
+    text-align: center;
+    margin-top: 1em;
+}
+
+.container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 35%;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.container .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 12em;
+}
+
+
+.container .box{
+    display: block;
+    padding: 20px;
+    /* border: 0.1em rgb(219, 234, 235) solid; */
+    border-radius: 5px;
+    border-top: 2px rgb(236, 233, 226) solid;
+    border-bottom: 2px rgb(236, 233, 226) solid;
+}
+
+.container .box .score{
+    display: block;
+    padding: 0.2em;
+    border: 0.2em rgb(232, 226, 233) solid;
+    border-radius: 5px;
+    width: 8em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    font-weight: bold;
+}
+
+.container .box .score #player1-score, #player2-score{
+    font-size: larger;
+    font-weight: 600;
+    padding: 4px;
+    color: red;
+}
+
+.container .box .score #player2-score{
+    color: blue;
+}
+
+.container .box .msg{
+    display: block;
+    margin: 1em 0 1em 0;
+    text-align: center;
+    border-top: 2px rgb(236, 233, 226) solid;
+    border-bottom: 2px rgb(236, 233, 226) solid;
+}
+
+
+.container .box .buttons{
+    margin-top: 2em;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.2em;
+}
+
+.container .box .buttons #player1-btn{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.container .box .buttons #player1-btn:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+}
+
+.container .box .buttons #player2-btn{
+    background-color: rgb(255, 255, 255);
+    color:blue;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.container .box .buttons #player2-btn:hover{
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+}
+
+.container .box .buttons #reset-btn{
+    background-color: rgb(255, 255, 255);
+    color:green;
+    border-radius: 5px;
+    padding: 0.5em;
+}
+
+.container .box .buttons #reset-btn:hover{
+    background-color: green;
+    color: rgb(255, 255, 255);
+    transition: 0.5s all;
+}
